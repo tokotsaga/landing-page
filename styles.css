@@ -51,10 +51,10 @@ body > * {
             padding: 20px;
             }
                 .title {
-                    font-size:48px;
+                    font-size:36px;
                     font-weight:900;
-                    color:black;
-                    margin-right:50px;
+                    color:#1F2937;
+                    margin: 10px;
                     }
                     p {
                         font-size: 18px;
@@ -156,20 +156,21 @@ justify-content:center;
 	color:white;
 	border-radius:10px;
 	width:800px;
-}
+    justify-content: space-between;}
 .blueboxtex {
 	display:block;
 	flex-direction:column;
 }
 .signup1 {
-	Display:flex;
-	align-self:center;
-	justify-content:center;
-    height:30px;
-	color:white;
-	border:solid white;
-	margin-left:auto;
-	border-radius:5px;
-	padding:2px;
+    display: block;
+    width:100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px;
+    color:blue;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
 
 	}
